@@ -6,9 +6,11 @@ Simplification du partage du rapport « Aperçu du lecteur d’écran » de l�
 
 ## Stratégie utilisée
 
-Les appels _url()_ aux images dans la feuille de style de l’aperçu « Lecteur d’écran » ont été convertis en data URI, avec un [outil dédié](https://gist.github.com/3l3gant-cod3s/6d5bab4b8f5c116e7b447538a8095a62) en Python 3 après modification d’une [version originale de celui-ci](https://gist.github.com/jsocol/1089733) en Python 2. La feuille de style est basée sur _normalize.css_ de [necolas](https://github.com/necolas), toutes deux sont sous licence MIT, ce qui a permis l’adaptation.
+Les appels _url()_ aux images dans la feuille de style de l’aperçu « Lecteur d’écran » ont été convertis en [data URI](https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/Data_URLs), avec un [outil dédié](https://gist.github.com/3l3gant-cod3s/6d5bab4b8f5c116e7b447538a8095a62) en Python 3 après modification d’une [version originale de celui-ci](https://gist.github.com/jsocol/1089733) en Python 2. La feuille de style est basée sur _normalize.css_ de [necolas](https://github.com/necolas), toutes deux sont sous licence MIT, ce qui a permis l’adaptation.
 
 Les images ont été au préalable recompressées avec [Oxipng](https://github.com/shssoichiro/oxipng) pour réduire leur taille sans modifier leur apparence de façon perceptible.
+
+Si elles avaient été nombreuses elles auraient pu être vérifiées avec [PerceptualDiff](http://pdiff.sourceforge.net/) mais ne l’ont été que « manuellement ».
 
 Par ailleurs le fichier _normalize.css_ a été refactorisé pour réduire la plupart des répétitions, notamment afin de limiter le nombre d’occurrences de chacune des data-URIs à une seule.
 
