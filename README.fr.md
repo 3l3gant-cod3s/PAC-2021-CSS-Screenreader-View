@@ -27,3 +27,7 @@ Remplacer dans ce code HTML le lien &lt;link rel="stylesheet" type="text/css" hr
 Et Voilà! vous obtenez un aperçu « Lecteur d’écran » autoporteur que vous pouvez partager sans aléas.
 
 Remarque : une vue textuelle généralement équivalente peut-être obtenue avec l’option _-struct-text_ de l’outil _pdfinfo_ des [_poppler-utils_ (en anglais)](https://en.wikipedia.org/wiki/Poppler_(software)#poppler-utils), en ligne de commande.
+
+## À quoi ça sert ?
+
+Ce rapport permet par exemple de vérifier que des images qui méritent un texte équivalent parce qu’elles sont porteuse de sens (un logo qui identifie un ministère dans une circulaire…) le possèdent bien. Que l’ordre de lecture est logique. Ou que la structure visuelle, apparente, est bien répercutée dans une structure formelle telle que des titres, des listes et sous-listes etc. Structure formelle que pourront exploiter les aides techniques telles qu’une synthèse vocale. 
