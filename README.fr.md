@@ -12,7 +12,7 @@ Les images ont été au préalable recompressées avec [Oxipng](https://github.c
 
 Si elles avaient été nombreuses elles auraient pu être vérifiées avec [PerceptualDiff](http://pdiff.sourceforge.net/) mais ne l’ont été que « manuellement ».
 
-Par ailleurs le fichier _normalize.css_ a été refactorisé pour réduire la plupart des répétitions, notamment afin de limiter le nombre d’occurrences de chacune des data-URIs à une seule.
+Par ailleurs le fichier _normalize.css_ a été refactorisé pour réduire la plupart des répétitions, notamment afin de limiter le nombre d’occurrences de chacune des data-URIs, assez verbeuses, à une seule.
 
 La taille résultante est du coup plus faible que celle de l’ensemble initial (feuille de style CSS + images).
 
